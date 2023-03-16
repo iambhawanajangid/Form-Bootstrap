@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        .card{
+            margin-top: 100px;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Activity_02-01-2023.html">Contect with as</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="Activity_04-01-2023.html">Sign Up</a>
+              </li>
+                <a class="nav-link active" href="From_28-12-2022.html" role="button"  aria-expanded="false">
+                  Form
+                </a>
+              <li class="nav-item">
+                <a class="nav-link active" href="login page_11-01-2022.html">Login page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Admission enquiry form.html">Enquiry Form</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="test_06-01-2022.html">Over view</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.bhaskarassets.com/web2images/521/2020/09/21/orig_0521jnvu_1600650929.jpg" class="d-block w-100" alt="..." height="800px" width="800px">
+          </div>
+          <div class="carousel-item">
+            <img src="https://examcraze.in/wp-content/uploads/2020/05/JNVU-1.jpg" class="d-block w-100" alt="..." height="800px" width="800px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <form class="row g-3 mt-5 width-50px;" style="width: 80%; margin: auto;">
+        <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+            <div class="row g-3">
+                <div class="col">
+                    <label for="inputEmail4" class="form-label">Full Nmae</label>
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col mt-5">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+            </div>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>Jodhpur</option>
+                    <option>Ajmer</option>
+                    <option>Kota</option>
+                    <option>Jaipur</option>
+                    <option>Kanpur</option>
+                    <option>Dehli</option>
+                    <option>Goa</option>
+                </select>
+            </div>
+            <div class="row g-3 mt-2">
+                <div class="col-sm-7">
+                    <input type="text" class="form-control" placeholder="City" aria-label="City">
+                </div>
+                <div class="col-sm">
+                    <input type="text" class="form-control" placeholder="State" aria-label="State">
+                </div>
+                <div class="col-sm">
+                    <input type="text" class="form-control" placeholder="Zip" aria-label="Zip">
+                </div>
+            </div>
+            <fieldset class="row mb-3">
+                <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"
+                            checked>
+                        <label class="form-check-label" for="gridRadios1">
+                            First radio
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                            Second radio
+                        </label>
+                    </div>
+                    <div class="form-check disabled">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3"
+                            disabled>
+                        <label class="form-check-label" for="gridRadios3">
+                            Third disabled radio
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Check me out
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+        </div>
+    </form>
+      <div class="card-group">
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_evxZGSxOYGnDQOK6Wy8Z-0QLlOJ9lVD1ZtzgDKxI53OjO7YsVrrahArcZazwyvW53Aw&usqp=CAU" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://blog.ipleaders.in/wp-content/uploads/2021/07/Top-12-Pioneers-in-Education-scaled.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSs37ShxE9bg9U9VprBOPp67d1uNc774SUJhbuEURKJytyTSbD5NNf6nWE9e2_tte3W7A&usqp=CAU" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
